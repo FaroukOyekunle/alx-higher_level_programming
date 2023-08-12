@@ -4,5 +4,4 @@
 .venv/
 *.pyc
 main.c
-linked_lists.c
 .vscode
