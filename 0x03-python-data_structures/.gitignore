@@ -3,3 +3,6 @@
 # Ignore compiled files or local configuration specific to your development environment
 .venv/
 *.pyc
+main.c
+linked_lists.c
+.vscode
