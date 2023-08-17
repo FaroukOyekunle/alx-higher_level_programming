@@ -1,64 +1,79 @@
 0x04. Python - More Data Structures: Set, Dictionary
+=============================================
 
-    By Guillaume\
+-   By Guillaume
+-   Weight: 1
+-   Ongoing second chance project - started Aug 16, 2023 6:00 AM, must end by Aug 19, 2023 6:00 AM
+-   Checker will be released at Aug 12, 2023 6:00 AM
+-   An auto review will be launched at the deadline
 
 Resources
+---------
 
-Read or watch:
+**Read or watch**:
 
-    Data structures\
-    Lambda, filter, reduce and map\
-    Learn to Program 12 Lambda Map Filter Reduce
+-   [Data structures](https://intranet.alxswe.com/rltoken/GmgoSUtBbHBW8suWkws51g "Data structures") 
+-   [Lambda, filter, reduce and map] (https://intranet.alxswe.com/rltoken/53f4kKVT0-jyzrJstOSJWg "Lambda, filter, reduce and map")
+-   [Learn to Program 6 : Lists] (https://intranet.alxswe.com/rltoken/v9eyFryhkYmxDI13iTx2VA "Learn to Program 12 Lambda Map Filter Reduce")
 
-man or help:
 
-    python3
+**man or help**:
+
+-   python3
 
 Learning Objectives
+-------------------
 
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:\
-General
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/nbatZmfQyeB03w9ipyFhSw "explain to anyone"), **without the help of Google**:
 
-    Why Python programming is awesome\
-    What are sets and how to use them\
-    What are the most common methods of set and how to use them\
-    When to use sets versus lists\
-    How to iterate into a set\
-    What are dictionaries and how to use them\
-    When to use dictionaries versus lists or sets\
-    What is a key in a dictionary\
-    How to iterate over a dictionary\
-    What is a lambda function\
-    What are the map, reduce and filter functions
+### General
 
-Requirements\
-General
+-    Why Python programming is awesome\
+-    What are sets and how to use them\
+-    What are the most common methods of set and how to use them\
+-    When to use sets versus lists\
+-    How to iterate into a set\
+-    What are dictionaries and how to use them\
+-    When to use dictionaries versus lists or sets\
+-    What is a key in a dictionary\
+-    How to iterate over a dictionary\
+-    What is a lambda function\
+-    What are the map, reduce and filter functions
 
-    Allowed editors: vi, vim, emacs\
-    All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)\
-    All your files should end with a new line\
-    The first line of all your files should be exactly #!/usr/bin/python3\
-    A README.md file, at the root of the folder of the project, is mandatory\
-    Your code should use the pycodestyle (version 2.7.*)\
-    All your files must be executable\
-    The length of your files will be tested using wc
+Requirements
+------------
+
+### General
+
+-    Allowed editors: vi, vim, emacs\
+-    All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)\
+-    All your files should end with a new line\
+-    The first line of all your files should be exactly #!/usr/bin/python3\
+-    A README.md file, at the root of the folder of the project, is mandatory\
+-    Your code should use the pycodestyle (version 2.7.*)\
+-    All your files must be executable\
+-    The length of your files will be tested using wc
 
 
 Tasks\
-0\. Squared simple\
+-----
+
+### 0\. Squared simple\
+
 mandatory
 
 Write a function that computes the square value of all integers of a matrix.
 
-    Prototype: def square_matrix_simple(matrix=[]):\
-    matrix is a 2 dimensional array\
-    Returns a new matrix:\
-        Same size as matrix\
-        Each value should be the square of the value of the input\
-    Initial matrix should not be modified\
-    You are not allowed to import any module\
-    You are allowed to use regular loops, map, etc.
+-   Prototype: def square_matrix_simple(matrix=[]):\
+-   matrix is a 2 dimensional array\
+-   Returns a new matrix:\
+-   Same size as matrix\
+-   Each value should be the square of the value of the input\
+-   Initial matrix should not be modified\
+-   You are not allowed to import any module\
+-   You are allowed to use regular loops, map, etc.
 
+```
 guillaume@ubuntu:~/0x04$ cat 0-main.py\
 #!/usr/bin/python3\
 square_matrix_simple = __import__('0-square_matrix_simple').square_matrix_simple
@@ -78,22 +93,28 @@ guillaume@ubuntu:~/0x04$ ./0-main.py\
 [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\
 guillaume@ubuntu:~/0x04$
 
-Repo:
+```
 
-    GitHub repository: alx-higher_level_programming\
-    Directory: 0x04-python-more_data_structures\
-    File: 0-square_matrix_simple.py
+**Repo:**
 
-1\. Search and replace\
+-    GitHub repository: alx-higher_level_programming\
+-    Directory: 0x04-python-more_data_structures\
+-    File: 0-square_matrix_simple.py
+
+
+### 1\. Search and replace
+
 mandatory
 
 Write a function that replaces all occurrences of an element by another in a new list.
 
-    Prototype: def search_replace(my_list, search, replace):\
-    my_list is the initial list\
-    search is the element to replace in the list\
-    replace is the new element\
-    You are not allowed to import any module
+-    Prototype: def search_replace(my_list, search, replace):\
+-    my_list is the initial list\
+-    search is the element to replace in the list\
+-    replace is the new element\
+-    You are not allowed to import any module
+
+```
 
 guillaume@ubuntu:~/0x04$ cat 1-main.py\
 #!/usr/bin/python3\
@@ -110,19 +131,24 @@ guillaume@ubuntu:~/0x04$ ./1-main.py\
 [1, 2, 3, 4, 5, 4, 2, 1, 1, 4, 89]\
 guillaume@ubuntu:~/0x04$
 
-Repo:
+```
 
-    GitHub repository: alx-higher_level_programming\
-    Directory: 0x04-python-more_data_structures\
-    File: 1-search_replace.py
+**Repo:**
 
-2\. Unique addition\
+-    GitHub repository: alx-higher_level_programming\
+-    Directory: 0x04-python-more_data_structures\
+-    File: 1-search_replace.py
+
+### 2\. Unique addition
+
 mandatory
 
 Write a function that adds all unique integers in a list (only once for each integer).
 
-    Prototype: def uniq_add(my_list=[]):\
-    You are not allowed to import any module
+-    Prototype: def uniq_add(my_list=[]):\
+-    You are not allowed to import any module
+
+```
 
 guillaume@ubuntu:~/0x04$ cat 2-main.py\
 #!/usr/bin/python3\
@@ -136,19 +162,24 @@ guillaume@ubuntu:~/0x04$ ./2-main.py\
 Result: 15\
 guillaume@ubuntu:~/0x04$
 
-Repo:
+```
 
-    GitHub repository: alx-higher_level_programming\
-    Directory: 0x04-python-more_data_structures\
-    File: 2-uniq_add.py
+**Repo:**
 
-3\. Present in both\
+-    GitHub repository: alx-higher_level_programming\
+-    Directory: 0x04-python-more_data_structures\
+-    File: 2-uniq_add.py
+
+### 3\. Present in both
+
 mandatory
 
 Write a function that returns a set of common elements in two sets.
 
-    Prototype: def common_elements(set_1, set_2):\
-    You are not allowed to import any module
+-    Prototype: def common_elements(set_1, set_2):\
+-    You are not allowed to import any module
+
+```
 
 guillaume@ubuntu:~/0x04$ cat 3-main.py\
 #!/usr/bin/python3\
@@ -163,11 +194,13 @@ guillaume@ubuntu:~/0x04$ ./3-main.py\
 ['C']\
 guillaume@ubuntu:~/0x04$
 
-Repo:
+```
 
-    GitHub repository: alx-higher_level_programming\
-    Directory: 0x04-python-more_data_structures\
-    File: 3-common_elements.py
+**Repo:**
+
+-    GitHub repository: alx-higher_level_programming\
+-    Directory: 0x04-python-more_data_structures\
+-    File: 3-common_elements.py
 
 4\. Only differents\
 mandatory
