@@ -50,7 +50,7 @@ Tasks
 
 ### 0\. Safe list printing
 
-#mandatory
+# mandatory
 
 Write a function that prints `x` elements of a list.
 
@@ -97,7 +97,7 @@ guillaume@ubuntu:~/0x05$
 
 ### 1\. Safe printing of an integers list
 
-#mandatory
+# mandatory
 
 Write a function that prints an integer with `"{:d}".format()`.
 
@@ -147,7 +147,7 @@ guillaume@ubuntu:~/0x05$
 
 ### 2\. Print and count integers
 
-#mandatory
+# mandatory
 
 Write a function that prints the first `x` elements of a list and only integers.
 
@@ -203,7 +203,7 @@ guillaume@ubuntu:~/0x05$
 
 ### 3\. Integers division with debug
 
-#mandatory
+# mandatory
 
 Write a function that divides 2 integers and prints the result.
 
@@ -247,7 +247,7 @@ guillaume@ubuntu:~/0x05$
 
 ### 4\. Divide a list
 
-#mandatory
+# mandatory
 
 Write a function that divides element by element 2 lists.
 
@@ -301,7 +301,7 @@ guillaume@ubuntu:~/0x05$
 
 ### 5\. Raise exception
 
-#mandatory
+# mandatory
 
 Write a function that raises a type exception.
 
